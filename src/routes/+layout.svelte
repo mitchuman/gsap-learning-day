@@ -14,4 +14,4 @@
 	<Nav />
 </header>
 
-<main class="p-4">{@render children()}</main>
+<main class="overflow-hidden p-4">{@render children()}</main>
