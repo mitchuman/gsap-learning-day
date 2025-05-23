@@ -1,15 +1,27 @@
 <script lang="ts">
-	const links: Array<{ href: string; label?: string }> = [{ href: '0' }]
+	import { page } from '$app/state'
+	import clsx from 'clsx'
+
+	const links: Array<{ href: string; label?: string }> = [
+		{ href: '0-intro' },
+		{ href: '1-tween' },
+		{ href: '2-controls' },
+	]
 </script>
 
 <nav>
-	<details>
+	<details
+		class="relative"
+		onmouseenter={(e) => (e.currentTarget.open = true)}
+		onmouseleave={(e) => (e.currentTarget.open = false)}
+	>
 		<summary>Menu</summary>
 
-		<ul class="list-[disc] pl-4">
+		<ul class="absolute top-full left-0 min-w-max list-[disc] bg-black p-2 pl-6 text-white">
 			{#each links as { href, label }}
-				<li>
-					<a class="text-[dodgerblue] underline" href="/tutorials/{href}">{label ?? href}</a>
+				{@const path = `/tutorials/${href}`}
+				<li class={clsx(page.route.id === path && 'after:content-["_👈"]')}>
+					<a class="text-[dodgerblue] underline" href={path}>{label ?? href}</a>
 				</li>
 			{/each}
 		</ul>

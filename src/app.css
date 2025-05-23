@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+@layer base {
+	summary {
+		cursor: pointer;
+	}
+
+	button {
+		cursor: pointer;
+		padding: 0.25em 0.5em;
+		background-color: dodgerblue;
+		color: white;
+
+		&:active {
+			transform: scale(0.95);
+		}
+	}
+
+	emoji {
+		display: inline-block;
+		font-size: xx-large;
+	}
+}

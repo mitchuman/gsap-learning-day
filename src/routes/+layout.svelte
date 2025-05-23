@@ -9,7 +9,7 @@
 	<title>Learning Day — GSAP</title>
 </svelte:head>
 
-<header class="bg-black p-4 text-white">
+<header class="relative z-10 flex items-center gap-4 bg-black p-4 text-white">
 	<a href="/">Learning Day — GSAP</a>
 	<Nav />
 </header>
