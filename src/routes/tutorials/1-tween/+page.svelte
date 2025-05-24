@@ -9,10 +9,10 @@
 		gsap.fromTo(
 			'.sho',
 			{
-				x: '-100%',
+				xPercent: -100,
 			},
 			{
-				x: '100%',
+				xPercent: 100,
 				rotateY: 360,
 				repeat: -1,
 				yoyo: true,

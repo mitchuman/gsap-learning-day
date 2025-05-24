@@ -6,6 +6,8 @@
 		{ href: '0-intro' },
 		{ href: '1-tween' },
 		{ href: '2-controls' },
+		{ href: '3-timeline' },
+		{ href: '4-hover' },
 	]
 </script>
 
