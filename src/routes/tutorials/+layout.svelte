@@ -7,9 +7,9 @@
 	const base_url = 'https://github.com/mitchuman/gsap-learning-day/tree/main/src/routes'
 </script>
 
-<nav class="text-right">
+<nav class="mb-4 text-right">
 	<a
-		class="border border-dashed p-2"
+		class="inline-block border border-dashed p-2"
 		href="{base_url}/{page.route.id}/+page.svelte"
 		target="_blank"
 	>

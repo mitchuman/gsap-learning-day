@@ -8,6 +8,9 @@
 		{ href: '2-controls' },
 		{ href: '3-timeline' },
 		{ href: '4-hover' },
+		{ href: '5-final' },
+		{ href: '6-typewriter' },
+		{ href: '7-percent' },
 	]
 </script>
 
