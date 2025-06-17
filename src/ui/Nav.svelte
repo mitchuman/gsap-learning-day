@@ -3,14 +3,15 @@
 	import clsx from 'clsx'
 
 	const links: Array<{ href: string; label?: string }> = [
-		{ href: '0-intro' },
-		{ href: '1-tween' },
-		{ href: '2-controls' },
-		{ href: '3-timeline' },
-		{ href: '4-hover' },
-		{ href: '5-final' },
-		{ href: '6-typewriter' },
-		{ href: '7-percent' },
+		{ href: '00-intro' },
+		{ href: '01-tween' },
+		{ href: '02-controls' },
+		{ href: '03-timeline' },
+		{ href: '04-hover' },
+		{ href: '05-final' },
+		{ href: '06-typewriter' },
+		{ href: '07-percent' },
+		{ href: '08-chained' },
 	]
 </script>
 
